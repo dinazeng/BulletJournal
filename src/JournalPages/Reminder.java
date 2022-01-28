@@ -2,7 +2,7 @@ package JournalPages;
 
 public class Reminder extends Entry {
 
-    private int priority;
+    private int priority = 0;
 
     public Reminder(String name) {
         super(name);

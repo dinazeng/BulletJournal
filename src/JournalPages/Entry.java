@@ -5,9 +5,9 @@ import java.time.LocalDateTime;
 public class Entry {
     final private String name;
     private int type = 0;
-    private String desc;
+    private String desc = "";
     private LocalDateTime time;
-    private String location;
+    private String location = "";
 
     public Entry(String name){
         this.name = name;
